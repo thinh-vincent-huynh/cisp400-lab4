@@ -1,15 +1,28 @@
 #include "Engine.h"
 
-// Private functions for internal use only
-void input();
-void update(float dtAsSeconds);
-void draw();
-
 // The Engine constructor
-Engine()
+Engine::Engine()
 {
 
 }
 
 // Run will call all the private functions
-void run();
+void Engine::run()
+{
+    
+}
+
+// Private functions for internal use only
+void Engine::input()
+{
+
+}
+void Engine::update(float dtAsSeconds)
+{
+
+}
+void Engine::draw()
+{
+
+}
+
